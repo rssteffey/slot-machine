@@ -15,6 +15,8 @@ Click on the video below for a quick overview of how it's intended to be used:
 
 ## Setup
 
+**Unity:** 5.6.0f3
+
 Not entirely taking the time to refresh my memory on all the steps, but if you're even 20% familiar with Unity it shouldn't be too hard to figure things out
 
 ### Input
