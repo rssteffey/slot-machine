@@ -36,14 +36,15 @@ This is obviously not secure - but it's fantastic for a party where guests can s
 If you don't need this piece, ripping it out/replacing it is on you to figure out.
 
 ### Balance
-One of the most important caveats before you, reader, run off and build The Bellagio 2 on the framework presented here: \
+One of the most important caveats before you, reader, run off and build _The Bellagio II_ on the framework presented here: \
 On this machine, the house WILL lose.
 
 People like winning. People at a party doubly so. \
 Rather than bother with any earnings tables or payout math in the week of designing this before the party, I simply built the reels with the same logo patterns as the replicated machine.
 
 The real machine has exact control over where the reels stop, and adjusts the payouts manually. \
-This machine stops the reels randomly (theoretically like early physical machines would), so the only balancing is done by tweaking the frequency and spacing of symbols on each reel.
+This machine stops the reels randomly (theoretically like early physical machines would), so the only balancing is done by tweaking the frequency and spacing of symbols on each reel. \
+You can tweak within the existing system by adjusting the symbol list in `getProperReelSymbols()` in *ReelManager.cs*, or you could rewrite the stopping code to actually pick symbols based on your payout table. 
 
 ![image](https://user-images.githubusercontent.com/4682038/182770826-f03b5be1-040d-4e43-837a-73c6a7c8c8a2.png)
 
